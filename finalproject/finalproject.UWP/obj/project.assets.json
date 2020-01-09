@@ -354,6 +354,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
       "finalproject/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -884,6 +896,18 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "finalproject/1.0.0": {
@@ -1419,6 +1443,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
       "finalproject/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1771,6 +1807,18 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "finalproject/1.0.0": {
@@ -2303,6 +2351,18 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "finalproject/1.0.0": {
@@ -2838,6 +2898,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
       "finalproject/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3368,6 +3440,18 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
         }
       },
       "finalproject/1.0.0": {
@@ -3903,6 +3987,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
       "finalproject/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4299,7 +4395,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -7981,6 +8077,24 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+      "sha512": "+xxUr80PHBiYkrBQQ4oXYm9Xi9lUSwhVzIeoGuSOc37LkoC83grG3irOpw0tevtfMIzS109QAJ7pNULq6evjgQ==",
+      "type": "package",
+      "path": "xamarin.forms.carouselview/2.3.0-pre2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll",
+        "lib/MonoTouch10/Xamarin.Forms.CarouselView.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/uap10.0/Xamarin.Forms.CarouselView.dll",
+        "lib/win81/Xamarin.Forms.CarouselView.dll",
+        "lib/wpa81/Xamarin.Forms.CarouselView.dll",
+        "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
+        "xamarin.forms.carouselview.nuspec"
+      ]
+    },
     "finalproject/1.0.0": {
       "type": "project",
       "path": "../finalproject/finalproject.csproj",
@@ -7992,22 +8106,23 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.9",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249",
+      "Xamarin.Forms.CarouselView >= 2.3.0-pre2",
       "finalproject >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yilma\\.nuget\\packages\\": {},
+    "C:\\Users\\samil\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
       "projectName": "finalproject.UWP",
-      "projectPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
-      "packagesPath": "C:\\Users\\yilma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.UWP\\obj\\",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
+      "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8015,7 +8130,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\yilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8029,8 +8144,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj": {
-              "projectPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj"
+            "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+              "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
             }
           }
         }
@@ -8050,6 +8165,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.2.0.709249, )"
+          },
+          "Xamarin.Forms.CarouselView": {
+            "target": "Package",
+            "version": "[2.3.0-pre2, )"
           }
         },
         "imports": [

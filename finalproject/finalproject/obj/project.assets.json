@@ -555,25 +555,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yilma\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\samil\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
       "projectName": "finalproject",
-      "projectPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj",
-      "packagesPath": "C:\\Users\\yilma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\obj\\",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
+      "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\yilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

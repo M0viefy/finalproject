@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Xamarin.Forms.PlatformConfiguration;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
+using TabbedPage = Xamarin.Forms.TabbedPage;
 
 namespace finalproject
 {
@@ -15,6 +18,7 @@ namespace finalproject
         public TabbedPage1()
         {
             InitializeComponent();
+            On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
         }
 
         private async void Horror_Clicked(object sender, EventArgs e)

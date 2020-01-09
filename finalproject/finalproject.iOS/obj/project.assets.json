@@ -1005,24 +1005,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yilma\\.nuget\\packages\\": {},
+    "C:\\Users\\samil\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
       "projectName": "finalproject.iOS",
-      "projectPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
-      "packagesPath": "C:\\Users\\yilma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject.iOS\\obj\\",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
+      "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\yilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1036,8 +1036,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj": {
-              "projectPath": "C:\\Users\\yilma\\source\\repos\\finalproject\\finalproject\\finalproject\\finalproject.csproj"
+            "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+              "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
             }
           }
         }
