@@ -1,0 +1,17 @@
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\finalproject.csprojAssemblyReference.cache
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\finalproject.AssemblyInfoInputs.cache
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\finalproject.AssemblyInfo.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\finalproject.dll
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\ref\finalproject.dll
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\finalproject.pdb
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\bin\Debug\netstandard2.0\finalproject.deps.json
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\bin\Debug\netstandard2.0\finalproject.dll
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\bin\Debug\netstandard2.0\ref\finalproject.dll
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\bin\Debug\netstandard2.0\finalproject.pdb
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\RenewPasswordPage.xaml.g.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
+C:\Users\yilma\source\repos\finalproject\finalproject\finalproject\obj\Debug\netstandard2.0\HorrorListPage.xaml.g.cs

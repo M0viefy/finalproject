@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:markupExtensions="clr-namespace:finalproject.MarkupExtension;assembly=finalproject"
+             x:Class="finalproject.MainPage"
+             BackgroundColor="RoyalBlue">
+    <Grid RowSpacing="0" Padding="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Grid.Row="0">
+            <!-- iosta Label status bar’in altinda gorunuyor.-->
+            <StackLayout.Padding> 
+                <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"/>
+            </StackLayout.Padding>
+            <!-- -->
+            <StackLayout VerticalOptions="CenterAndExpand" Spacing="14">
+                <Label Text="Moviefy" HorizontalOptions="Center" TextColor="White" FontSize="Large"/>
+            </StackLayout>
+            <Image HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Source="{markupExtensions:ImageSource 'finalproject.Assets.Images.login.png'}"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1">
+            <StackLayout>
+                <Entry x:Name="email" Placeholder="E-mail address" PlaceholderColor="White" HeightRequest="50"/>
+                <Entry x:Name="password" IsPassword="True" Placeholder="Password" PlaceholderColor="White" HeightRequest="50"/>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="SIGN IN" TextColor="White" BackgroundColor="LightSeaGreen" HeightRequest="50" FontAttributes="Bold" CornerRadius="30" Clicked="SignInButton_OnClicked"></Button>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Forgot Password?" FontSize="Medium" TextColor="White" HorizontalOptions="StartAndExpand">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTapForgotPasswordLabel"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Text="Sign Up" TextColor="White" FontSize="Medium" HorizontalOptions="EndAndExpand">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTapSignUpLabel"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>
