@@ -19,12 +19,16 @@ namespace finalproject
         {
             InitializeComponent();
             On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
+            BackgroundColor = Color.FromHex("#FF252526");
+            BarBackgroundColor = Color.FromHex("#FF252526");
+            
         }
 
         private async void Horror_Clicked(object sender, EventArgs e)
         {
             //TapGestureRecognizer.NumberOfTapsRequiredProperty.Equals(2);
             await Navigation.PushAsync(new HorrorListPage());
+            
         }
 
     }

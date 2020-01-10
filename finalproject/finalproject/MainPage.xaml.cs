@@ -17,6 +17,8 @@ namespace finalproject
         public MainPage()
         {
             InitializeComponent();
+            //code in below row has provided hidin title bar 
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         private async void SignInButton_OnClicked(object sender, EventArgs e)
         {
