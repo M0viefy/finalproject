@@ -5818,16 +5818,19 @@ namespace finalproject.Droid
 			public const int sfiction = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int splash = 2131165304;
+			public const int smith = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int tooltip_frame_dark = 2131165305;
+			public const int splash = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int tooltip_frame_light = 2131165306;
+			public const int tooltip_frame_dark = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int top20 = 2131165307;
+			public const int tooltip_frame_light = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int top20 = 2131165308;
 			
 			static Drawable()
 			{
