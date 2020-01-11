@@ -8118,11 +8118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
       "projectName": "finalproject.UWP",
-      "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\finalproject.UWP.csproj",
       "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.UWP\\obj\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8144,8 +8144,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
-              "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
+            "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+              "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
             }
           }
         }

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              xmlns:markupExtensions="clr-namespace:finalproject.MarkupExtension;assembly=finalproject"
              x:Class="finalproject.MainPage"
-             BackgroundColor="RoyalBlue">
+             BackgroundColor="#FF252526">
     <Grid RowSpacing="0" Padding="30">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -30,18 +30,18 @@
 
         <StackLayout Grid.Row="1">
             <StackLayout>
-                <Entry x:Name="email" Placeholder="E-mail address" PlaceholderColor="White" HeightRequest="50"/>
-                <Entry x:Name="password" IsPassword="True" Placeholder="Password" PlaceholderColor="White" HeightRequest="50"/>
+                <Entry x:Name="email" Placeholder="E-mail address" PlaceholderColor="LightSeaGreen" TextColor="LightSeaGreen" HeightRequest="50"/>
+                <Entry x:Name="password" IsPassword="True" Placeholder="Password" PlaceholderColor="LightSeaGreen" TextColor="LightSeaGreen" HeightRequest="50"/>
             </StackLayout>
             <StackLayout>
                 <Button Text="SIGN IN" TextColor="White" BackgroundColor="LightSeaGreen" HeightRequest="50" FontAttributes="Bold" CornerRadius="30" Clicked="SignInButton_OnClicked"></Button>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Forgot Password?" FontSize="Medium" TextColor="White" HorizontalOptions="StartAndExpand">
+                    <Label Text="Forgot Password?" FontSize="Medium" TextColor="LightSeaGreen" HorizontalOptions="StartAndExpand">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnTapForgotPasswordLabel"/>
                         </Label.GestureRecognizers>
                     </Label>
-                    <Label Text="Sign Up" TextColor="White" FontSize="Medium" HorizontalOptions="EndAndExpand">
+                    <Label Text="Sign Up" TextColor="LightSeaGreen" FontSize="Medium" HorizontalOptions="EndAndExpand">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnTapSignUpLabel"/>
                         </Label.GestureRecognizers>
