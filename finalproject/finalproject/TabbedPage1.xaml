@@ -4,11 +4,35 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+            xmlns:local="clr-namespace:finalproject.ViewModels"
+            mc:Ignorable="d" Title="{Binding Title}"
              x:Class="finalproject.TabbedPage1">
   <!--Pages can be added as references or inline-->
     <ContentPage IconImageSource="home.jpg" >
-        <Grid RowSpacing="10" Padding="10">
+        
+        
+        
+        <StackLayout>
+            <CarouselView ItemsSource="{Binding Movies}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame BorderColor="LightSeaGreen" Margin="8" HasShadow="True" HeightRequest="250" CornerRadius="20" VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Image Source="{Binding ImagePath}"/>
+                                    <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                                
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+                <CarouselView.BindingContext>
+                    <local:MoviesViewModel/>
+                </CarouselView.BindingContext>
+            </CarouselView>
+        
+          <Grid RowSpacing="10" Padding="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
@@ -43,7 +67,8 @@
 
                 </StackLayout>
             </ScrollView>
-        </Grid>
+          </Grid>
+        </StackLayout>
     </ContentPage>
     <ContentPage IconImageSource="search.png">
         <SearchBar Placeholder="Search"

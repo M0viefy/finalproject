@@ -18,10 +18,36 @@ namespace finalproject.ViewModels
         {
             _pageTitle = "MoviesViewModel";
             _movies = new ObservableCollection<MoviesModel>();
-            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "" });
-            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "" });
-            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "" });
-            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+            _movies.Add(new MoviesModel { Title = "Mr. and Mrs. Smith", ImagePath = "smith.png" });
+
+        }
+
+        public ObservableCollection<MoviesModel> Movies
+        {
+            get
+            {
+                return _movies;
+            }
+            set
+            {
+                if(_movies != value)
+                {
+                    _movies = value;
+                    OnPropertyChanged(new PropertyChangedEventArgs("Movies"));
+                }
+            }
+        }
+
+        private void OnPropertyChanged(PropertyChangedEventArgs eventArgs)
+        {
+            PropertyChanged?.Invoke(this, eventArgs);
         }
     }
 }

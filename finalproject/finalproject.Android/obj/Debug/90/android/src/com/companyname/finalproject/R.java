@@ -4568,10 +4568,11 @@ public final class R {
     public static final int password=0x7f07007b;
     public static final int search=0x7f07007c;
     public static final int sfiction=0x7f07007d;
-    public static final int splash=0x7f07007e;
-    public static final int tooltip_frame_dark=0x7f07007f;
-    public static final int tooltip_frame_light=0x7f070080;
-    public static final int top20=0x7f070081;
+    public static final int smith=0x7f07007e;
+    public static final int splash=0x7f07007f;
+    public static final int tooltip_frame_dark=0x7f070080;
+    public static final int tooltip_frame_light=0x7f070081;
+    public static final int top20=0x7f070082;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
