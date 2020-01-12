@@ -27,6 +27,9 @@ namespace finalproject
 
 
         }
+
+        public void AddFav() { }
+
         List<string> movies = new List<string>
         {
             "Interstealler" , "Up" , "Hannibal" , "Avengers:End Game" , "I am Legend"
@@ -77,7 +80,7 @@ namespace finalproject
                 }
                 else
                 {
-                   
+                    AddFav();
                 }
             }
             else if(ID == 2)
@@ -171,6 +174,16 @@ namespace finalproject
         }
 
         private void likesmovie_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Marvel_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Fantasy_Clicked(object sender, EventArgs e)
         {
 
         }

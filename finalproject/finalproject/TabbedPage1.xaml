@@ -74,6 +74,8 @@
                             <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="layer3_Clicked" Source="war.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="layer4_Clicked" Source="animation.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="layer5_Clicked" Source="comedy.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="3" Clicked="Marvel_Clicked" Source="marvel.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="3" Clicked="Fantasy_Clicked" Source="fantasy.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <!--<ImageButton Clicked="Action_Clicked" Source="action.jpg" HeightRequest="150" WidthRequest="150"/>
                         <ImageButton Clicked="Animation_Clicked" Source="animation.jpg" HeightRequest="150" WidthRequest="150"/>-->
                             <!--<ImageButton Clicked="Sfiction_Clicked" Source="sfiction.jpg" HeightRequest="150" WidthRequest="150"/>-->
