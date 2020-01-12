@@ -68,18 +68,30 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="top20_Clicked" Source="imdb.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                           <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="top20_Clicked" Source="imdb.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10" Grid.Column="0" Grid.Row="1" Clicked="layer1_Clicked" Source="mystery.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10" Grid.Column="1" Grid.Row="0" Clicked="layer2_Clicked" Source="scifi.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="layer3_Clicked" Source="war.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="layer4_Clicked" Source="animation.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="layer5_Clicked" Source="comedy.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+<<<<<<< HEAD
                             <ImageButton Margin="10"  Grid.Column="0" Grid.Row="3" Clicked="Marvel_Clicked" Source="marvel.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <ImageButton Margin="10"  Grid.Column="1" Grid.Row="3" Clicked="Fantasy_Clicked" Source="fantasy.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
                             <!--<ImageButton Clicked="Action_Clicked" Source="action.jpg" HeightRequest="150" WidthRequest="150"/>
                         <ImageButton Clicked="Animation_Clicked" Source="animation.jpg" HeightRequest="150" WidthRequest="150"/>-->
                             <!--<ImageButton Clicked="Sfiction_Clicked" Source="sfiction.jpg" HeightRequest="150" WidthRequest="150"/>-->
                         </Grid>
+=======
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="3" Source="war.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="3" Source="adventure.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="4" Source="crime.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="4" Source="drama.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="5" Source="fantasy.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="5" Source="marvel.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="6" Source="oscars.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="6" Source="threed.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="0" Grid.Row="7" Source="thriller.png" HeightRequest="150" WidthRequest="150" BackgroundColor="Transparent" CornerRadius="20"/> </Grid>
+>>>>>>> deaf05efa12a8ffbaff61ed1899cf2a5cb732dfe
 
                     </StackLayout>
                 </ScrollView>
