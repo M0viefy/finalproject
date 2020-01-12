@@ -37,11 +37,6 @@
             <StackLayout>
                 <Button Text="SIGN IN" TextColor="White" BackgroundColor="LightSeaGreen" HeightRequest="50" FontAttributes="Bold" CornerRadius="30" Clicked="SignInButton_OnClicked"></Button>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Forgot Password?" FontSize="Medium" TextColor="LightSeaGreen" HorizontalOptions="StartAndExpand">
-                        <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="OnTapForgotPasswordLabel"/>
-                        </Label.GestureRecognizers>
-                    </Label>
                     <Label Text="Sign Up" TextColor="LightSeaGreen" FontSize="Medium" HorizontalOptions="EndAndExpand">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnTapSignUpLabel"/>

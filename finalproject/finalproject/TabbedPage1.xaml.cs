@@ -23,7 +23,29 @@ namespace finalproject
             BackgroundColor = Color.FromHex("#FF252526");
             BarBackgroundColor = Color.FromHex("#FF252526");
             BindingContext = new MoviesViewModel();
-            
+            SearchListView.ItemsSource = movies;
+
+        }
+        List<string> movies = new List<string>
+        {
+            "Interstealler" , "Up" , "Hannibal" , "Avengers:End Game" , "I am Legend"
+        };
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var keyword = MainSearchBar.Text;
+            SearchListView.ItemsSource =
+                 movies.Where(name =>
+                 name.ToLower().Contains(keyword.ToLower()));
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SignUpPage());
+        }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
         }
 
         private async void Horror_Clicked(object sender, EventArgs e)
