@@ -126,7 +126,7 @@
             <StackLayout Grid.Row="1" Orientation="Vertical">
                 <Button Text="Liked Movie" TextColor="White" Clicked="likesmovie_Clicked" BackgroundColor="RoyalBlue" CornerRadius="30"/>
                 <Button Text="Watched Movie" TextColor="White" Clicked="likesmovie_Clicked" BackgroundColor="RoyalBlue" CornerRadius="30"/>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Padding="0,30">
                     <Button Text="Sign In" Clicked="Button_Clicked_1" FontAttributes="Bold" BackgroundColor="LightSeaGreen" CornerRadius="30" WidthRequest="178"/>
                     <Button Text="Sign Up" Clicked="Button_Clicked" FontAttributes="Bold" BackgroundColor="LightSeaGreen" CornerRadius="30" WidthRequest="178"/>
                 </StackLayout>
