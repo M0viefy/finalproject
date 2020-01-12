@@ -157,17 +157,17 @@ namespace finalproject
 
         private void layer4_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ActionMoviePage());
+            Navigation.PushAsync(new AnimationMoviePage());
         }
 
         private void layer5_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ComedyMoviePage());
         }
 
         private void top20_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new IMDB_Top20());
         }
 
         private void likesmovie_Clicked(object sender, EventArgs e)
