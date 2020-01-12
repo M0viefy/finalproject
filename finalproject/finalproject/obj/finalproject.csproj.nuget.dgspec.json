@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {}
+    "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+    "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
+        "projectUniqueName": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
         "projectName": "finalproject",
-        "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
+        "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj",
         "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\obj\\",
+        "outputPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

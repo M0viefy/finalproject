@@ -167,5 +167,10 @@ namespace finalproject
         {
 
         }
+
+        private void likesmovie_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
