@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:markupExtensions="clr-namespace:finalproject.MarkupExtension;assembly=finalproject"
+             
              x:Class="finalproject.MainPage"
              BackgroundColor="#FF252526">
     <Grid RowSpacing="0" Padding="30">

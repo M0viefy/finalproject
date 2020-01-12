@@ -213,6 +213,20 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -370,6 +384,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -592,6 +607,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -914,6 +943,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -1136,6 +1166,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
@@ -1459,6 +1503,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -1682,6 +1727,20 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1825,6 +1884,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -2047,6 +2107,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -2369,6 +2443,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -2591,6 +2666,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -2914,6 +3003,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -3136,6 +3226,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -3458,6 +3562,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -3680,6 +3785,20 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.2.0.223": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Rg.Plugins.Popup.UWP.dll": {},
+          "lib/uap10.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -4003,6 +4122,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -4521,6 +4641,36 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Rg.Plugins.Popup/1.2.0.223": {
+      "sha512": "0ruzj7EedYRUhhsk327z7ymaHzf9E/n6Slg2ZJfOYqtZ14tX1dtWbyNRSmGEnWxLyN1qSq4Od4U6vYupHRpdtw==",
+      "type": "package",
+      "path": "rg.plugins.popup/1.2.0.223",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.pdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.pdb",
+        "lib/netstandard1.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard1.0/Rg.Plugins.Popup.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.pdb",
+        "readme.txt",
+        "rg.plugins.popup.1.2.0.223.nupkg.sha512",
+        "rg.plugins.popup.nuspec"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
@@ -8104,6 +8254,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.9",
+      "Rg.Plugins.Popup >= 1.2.0.223",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249",
       "Xamarin.Forms.CarouselView >= 2.3.0-pre2",
@@ -8157,6 +8308,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.9, )"
+          },
+          "Rg.Plugins.Popup": {
+            "target": "Package",
+            "version": "[1.2.0.223, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

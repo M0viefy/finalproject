@@ -8,22 +8,25 @@
             mc:Ignorable="d" Title="{Binding Title}"
              x:Class="finalproject.TabbedPage1">
   <!--Pages can be added as references or inline-->
-    <ContentPage IconImageSource="home.jpg" >
-        
-        
-        
+    <ContentPage IconImageSource="home.jpg">
         <StackLayout>
-            <CarouselView ItemsSource="{Binding Movies}">
+            <Label Text="Recommended for today" TextColor="LightSeaGreen" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" AnchorX="2.5" AnchorY="2.5" Margin="10,20,0,0">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="MarkerFelt-Thin" />
+                        <On Platform="Android" Value="Lobster-Regular.ttf#Lobster-Regular" />
+                        <On Platform="UWP" Value="Assets/Fonts/Lobster-Regular.ttf#Lobster" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+            <CarouselView ItemsSource="{Binding Movies}" HeightRequest="400">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Frame BorderColor="LightSeaGreen" Margin="8" HasShadow="True" HeightRequest="250" CornerRadius="20" VerticalOptions="CenterAndExpand">
-                                <StackLayout>
-                                    <Image Source="{Binding ImagePath}"/>
-                                    <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center"/>
-                                </StackLayout>
-                                
-                            </Frame>
+                            <StackLayout>
+                                <ImageButton Source="{Binding ImagePath}" Clicked="Daily_MovieClicked" CommandParameter="{Binding ID}"  HeightRequest="150" Margin="20"/>
+                                <Label x:Name="myLabel" Text="{Binding Title}" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center" IsVisible="False"/>
+                            </StackLayout>
                         </StackLayout>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
@@ -31,43 +34,44 @@
                     <local:MoviesViewModel/>
                 </CarouselView.BindingContext>
             </CarouselView>
-        
-          <Grid RowSpacing="10" Padding="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+         
 
-            <ScrollView Orientation="Vertical">
-                <StackLayout Orientation="Vertical">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <ImageButton Margin="10" Grid.Column="0" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <ImageButton Margin="10" Grid.Column="1" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                        <!--<ImageButton Clicked="Action_Clicked" Source="action.jpg" HeightRequest="150" WidthRequest="150"/>
+            <Grid RowSpacing="10" Padding="10" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ScrollView Orientation="Vertical">
+                    <StackLayout Orientation="Vertical">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <!--<ImageButton Clicked="Action_Clicked" Source="action.jpg" HeightRequest="150" WidthRequest="150"/>
                         <ImageButton Clicked="Animation_Clicked" Source="animation.jpg" HeightRequest="150" WidthRequest="150"/>-->
-                        <!--<ImageButton Clicked="Sfiction_Clicked" Source="sfiction.jpg" HeightRequest="150" WidthRequest="150"/>-->
-                    </Grid>
+                            <!--<ImageButton Clicked="Sfiction_Clicked" Source="sfiction.jpg" HeightRequest="150" WidthRequest="150"/>-->
+                        </Grid>
 
-                </StackLayout>
-            </ScrollView>
-          </Grid>
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
         </StackLayout>
     </ContentPage>
     <ContentPage IconImageSource="search.png">

@@ -9,6 +9,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 using TabbedPage = Xamarin.Forms.TabbedPage;
+using finalproject.ViewModels;
 
 namespace finalproject
 {
@@ -21,7 +22,7 @@ namespace finalproject
             On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
             BackgroundColor = Color.FromHex("#FF252526");
             BarBackgroundColor = Color.FromHex("#FF252526");
-            
+            BindingContext = new MoviesViewModel();
             
         }
 
@@ -32,5 +33,87 @@ namespace finalproject
             
         }
 
+        private async void Daily_MovieClicked(object sender, EventArgs e)
+        {
+            Xamarin.Forms.ImageButton imageButton = (Xamarin.Forms.ImageButton)sender;
+
+
+            //string TrailerUrl = imageButton.CommandParameter.ToString();
+            int ID = int.Parse(string.Format("{0}", imageButton.CommandParameter));
+           
+            string TrailerUrl = "";
+            if (ID == 1)
+            {
+                TrailerUrl = "https://www.youtube.com/watch?v=CZ0B22z22pI";
+                var ans = await DisplayAlert("Mr. and Mrs. Smith" + Title, "Sıradan bir evlilik yaşayan John ve Jane Smith'in hayatları gün geçtikçe daha sıkıcı bir hal almaktadır. " +
+                    "Hayatlarındaki monotonluğu bozan tek şey; birbirlerine söyledikleri yalanlardır. Çift, aslında, birbirine rakip iki organizasyona tetikçi olarak çalışmaktadır."
+                    , "Watch the trailer", "Back");
+                if (ans == true)
+                {
+                    Device.OpenUri(new System.Uri(TrailerUrl));
+                }
+                else
+                {
+                   
+                }
+            }
+            else if(ID == 2)
+            {
+                TrailerUrl = "https://www.youtube.com/watch?v=axGVrfwm9L4";
+                var ans = await DisplayAlert("8 Mile" + Title, "Freestyle Rap Movie"
+                  , "Watch the trailer", "Back");
+                if (ans == true)
+                {
+                    Device.OpenUri(new System.Uri(TrailerUrl));
+                }
+                else
+                {
+                    
+                }
+            }
+            else if(ID == 3)
+            {
+                TrailerUrl = "https://www.youtube.com/watch?v=I5kzcwcQA1Q";
+                 var ans = await DisplayAlert("Warrior", "Tom Hardy Movie", "Watch the trailer", "Back");
+                if (ans == true)
+                {
+                    Device.OpenUri(new System.Uri(TrailerUrl));
+                }
+                else
+                {
+                    
+                }
+            }
+            else if (ID == 4)
+            {
+                TrailerUrl = "https://www.youtube.com/watch?v=-NTRVR7evUg";
+                var ans = await DisplayAlert("Fast and Furious 8", "Faster and wilder! ", "Watch the trailer", "Back");
+                if (ans == true)
+                {
+                    Device.OpenUri(new System.Uri(TrailerUrl));
+                }
+                else
+                {
+                    
+                }
+            }
+            else if (ID == 5)
+            {
+                TrailerUrl = "https://www.youtube.com/watch?v=2QKg5SZ_35I";
+                var ans = await DisplayAlert("Jumanji", "a Dwayne Johnson Movie", "Watch the trailer", "Back");
+                if (ans == true)
+                {
+                    Device.OpenUri(new System.Uri(TrailerUrl));
+                }
+                else
+                {
+
+                }
+            }
+
+
+
+
+        }
     }
 }
