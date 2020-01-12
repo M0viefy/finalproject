@@ -115,5 +115,35 @@ namespace finalproject
 
 
         }
+
+        private void layer1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void layer2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void layer3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void layer4_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void layer5_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void top20_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

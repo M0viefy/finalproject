@@ -58,12 +58,12 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
-                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent"/>
-                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="0" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
-                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="Horror_Clicked" Source="top20.jpg" HeightRequest="150" WidthRequest="100" BackgroundColor="Transparent"/>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="0" Clicked="top20_Clicked" Source="top20.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="1" Clicked="layer1_Clicked" Source="layer1.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="0" Clicked="layer2_Clicked" Source="layer2.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10" Grid.Column="1" Grid.Row="1" Clicked="layer3_Clicked" Source="layer3.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10" Grid.Column="0" Grid.Row="2" Clicked="layer4_Clicked" Source="layer4.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
+                            <ImageButton Margin="10"  Grid.Column="1" Grid.Row="2" Clicked="layer5_Clicked" Source="layer5.png" HeightRequest="100" WidthRequest="100" BackgroundColor="Transparent" CornerRadius="20"/>
                             <!--<ImageButton Clicked="Action_Clicked" Source="action.jpg" HeightRequest="150" WidthRequest="150"/>
                         <ImageButton Clicked="Animation_Clicked" Source="animation.jpg" HeightRequest="150" WidthRequest="150"/>-->
                             <!--<ImageButton Clicked="Sfiction_Clicked" Source="sfiction.jpg" HeightRequest="150" WidthRequest="150"/>-->

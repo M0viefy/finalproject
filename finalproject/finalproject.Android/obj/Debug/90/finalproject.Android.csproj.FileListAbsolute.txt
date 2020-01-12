@@ -495,3 +495,8 @@ C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\
 C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\eightmile.png
 C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\fast8.png
 C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\layer4.png
+C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\layer5.png
+C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\layer1.png
+C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\layer2.png
+C:\Users\samil\Source\Repos\finalproject2\finalproject\finalproject.Android\obj\Debug\90\res\drawable\layer3.png
