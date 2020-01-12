@@ -25,6 +25,7 @@ namespace finalproject
             BindingContext = new MoviesViewModel();
             SearchListView.ItemsSource = movies;
 
+
         }
         List<string> movies = new List<string>
         {
@@ -140,22 +141,23 @@ namespace finalproject
 
         private void layer1_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new HorrorListPage()); 
         }
 
         private void layer2_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ThrillerMoviePage());
         }
 
         private void layer3_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new CrimeMoviePage());
 
         }
 
         private void layer4_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ActionMoviePage());
         }
 
         private void layer5_Clicked(object sender, EventArgs e)

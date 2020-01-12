@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace finalproject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CrimeMoviePage : ContentPage
+    public partial class ActionMoviePage : ContentPage
     {
-        public CrimeMoviePage()
+        public ActionMoviePage()
         {
             InitializeComponent();
-        }
-
-        private void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-
         }
     }
 }

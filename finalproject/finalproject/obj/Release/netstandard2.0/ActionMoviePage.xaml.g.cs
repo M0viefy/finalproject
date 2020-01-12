@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("finalproject.ThrillerMoviePage.xaml", "ThrillerMoviePage.xaml", typeof(global::finalproject.ThrillerMoviePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("finalproject.ActionMoviePage.xaml", "ActionMoviePage.xaml", typeof(global::finalproject.ActionMoviePage))]
 
 namespace finalproject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ThrillerMoviePage.xaml")]
-    public partial class ThrillerMoviePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ActionMoviePage.xaml")]
+    public partial class ActionMoviePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ThrillerMoviePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ActionMoviePage));
         }
     }
 }

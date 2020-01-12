@@ -16,5 +16,10 @@ namespace finalproject
         {
             InitializeComponent();
         }
+
+        private void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+
+        }
     }
 }
