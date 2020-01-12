@@ -40,11 +40,6 @@ namespace finalproject
         void OnTapSignUpLabel(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SignUpPage());
-        }
-
-        void OnTapForgotPasswordLabel(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new RenewPasswordPage());
-        }
+        }     
     }
 }
