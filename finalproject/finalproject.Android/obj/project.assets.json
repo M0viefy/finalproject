@@ -1963,11 +1963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.Android\\finalproject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.Android\\finalproject.Android.csproj",
       "projectName": "finalproject.Android",
-      "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.Android\\finalproject.Android.csproj",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.Android\\finalproject.Android.csproj",
       "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.Android\\obj\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1988,8 +1988,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
-              "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
+            "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+              "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
             }
           }
         }

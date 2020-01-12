@@ -1102,11 +1102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
       "projectName": "finalproject.iOS",
-      "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
+      "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\finalproject.iOS.csproj",
       "packagesPath": "C:\\Users\\samil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject.iOS\\obj\\",
+      "outputPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1127,8 +1127,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
-              "projectPath": "C:\\Users\\samil\\source\\repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
+            "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj": {
+              "projectPath": "C:\\Users\\samil\\Source\\Repos\\finalproject2\\finalproject\\finalproject\\finalproject.csproj"
             }
           }
         }
