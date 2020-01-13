@@ -1,4 +1,6 @@
-﻿using System;
+﻿using finalproject.Models;
+using finalproject.ViewModels;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -12,33 +14,38 @@ namespace finalproject
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LikedMovie : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
+        FavMoviesViewModel viewModel;
 
         public LikedMovie()
         {
             InitializeComponent();
 
-            Items = new ObservableCollection<string>
-            {
-                "Item 1",
-                "Item 2",
-                "Item 3",
-                "Item 4",
-                "Item 5"
-            };
-
-            MyListView.ItemsSource = Items;
+            BindingContext = viewModel = new FavMoviesViewModel();
         }
 
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
+        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            if (e.Item == null)
+            var item = args.SelectedItem as FavMovie;
+            if (item == null)
                 return;
 
-            await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
+            await DisplayAlert("", "", "OK", "Cancel");
 
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
+            // Manually deselect item.
+            ItemsListView.SelectedItem = null;
+        }
+
+        async void AddItem_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("OOOPSS!", "This area not completed but don't worry we will working on it!", "OK", "Cancel");
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (viewModel.FavMovies.Count == 0)
+                viewModel.LoadItemsCommand.Execute(null);
         }
     }
 }

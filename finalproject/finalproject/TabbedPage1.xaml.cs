@@ -10,25 +10,26 @@ using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 using TabbedPage = Xamarin.Forms.TabbedPage;
 using finalproject.ViewModels;
+using finalproject.Models;
 
 namespace finalproject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TabbedPage1 : TabbedPage
     {
+        public FavMovie FavMovie { get; set; }
         public TabbedPage1()
         {
             InitializeComponent();
             On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
             BackgroundColor = Color.FromHex("#FF252526");
             BarBackgroundColor = Color.FromHex("#FF252526");
-            BindingContext = new MoviesViewModel();
+            BindingContext = this;
             SearchListView.ItemsSource = movies;
 
 
         }
 
-        public void AddFav() { }
 
         List<string> movies = new List<string>
         {
@@ -61,6 +62,7 @@ namespace finalproject
 
         private async void Daily_MovieClicked(object sender, EventArgs e)
         {
+            
             Xamarin.Forms.ImageButton imageButton = (Xamarin.Forms.ImageButton)sender;
 
 
@@ -80,7 +82,7 @@ namespace finalproject
                 }
                 else
                 {
-                    AddFav();
+                    
                 }
             }
             else if(ID == 2)
@@ -173,9 +175,9 @@ namespace finalproject
             Navigation.PushAsync(new IMDB_Top20());
         }
 
-        private void likesmovie_Clicked(object sender, EventArgs e)
+        private async void likesmovie_Clicked(object sender, EventArgs e)
         {
-
+           await Navigation.PushAsync(new LikedMovie());
         }
 
         private void Marvel_Clicked(object sender, EventArgs e)
@@ -184,6 +186,11 @@ namespace finalproject
         }
 
         private void Fantasy_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cancel_Clicked(object sender, EventArgs e)
         {
 
         }
